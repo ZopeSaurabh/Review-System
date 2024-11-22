@@ -16,6 +16,10 @@ dotenv.config();
 
 dbConnect();
 
+app.get("/",(req,res)=>{
+     res.send("Review System");
+});
+
 
 
 app.listen(PORT, () => {
